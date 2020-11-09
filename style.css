@@ -1,0 +1,151 @@
+#store {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instrument {
+  position: relative;
+  height: 250px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 16px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+img {
+  margin-top: 13px;
+  height: 180px;
+}
+
+.noImage {
+  margin-top: 13px;
+  height: 160px;
+}
+
+h1 {
+  font-size: 20px;
+  
+}
+
+.head {
+  text-align: left;
+  font-size: 60px;
+  font-weight: bold;
+  color: Black;
+}
+
+.addButton {
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: white;
+  padding: 15px 30px;
+  font-size: 10px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  
+}
+
+.addButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.Fender:hover {
+  background-color: red;
+}
+
+.Yamaha:hover {
+  background-color: green;
+}
+.Maton:hover {
+  background-color: blue;
+}
+
+.cart {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: Black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.cart:hover {
+  background-color: red;
+  color: white;
+}
+
+.newItem {
+  position: fixed;
+  font-size: 18px;
+  top: 10px;
+  right: 180px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.newItem:hover {
+  background-color: red;
+  color: white;
+}
+
+.exitButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.exitButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.popUp {
+  height: 80%;
+  width: 100%;
+  background-color: rgba(193, 193, 193, 0.66);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  display: flex;
+  z-index: 998;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  background-color: white;
+  width: 400px;
+  height: 550px;
+}
+
+.form {
+  position: relative;
+  width: 400px;
+  height: 360px;
+  background-color: white;
+  color: black;
+}
